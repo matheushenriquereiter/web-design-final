@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/chatbot.css" />
+    <script defer src="/scripts/chatbot.js"></script>
+    <title>BnuFest</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="title"><a href="/index.html">BnuFest</a></h1>
+
+        <nav>
+          <ul class="list">
+            <li class="item"><a href="/index.html">Home</a></li>
+            <li class="item">Cadastro</li>
+            <li class="item">Login</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="chat">
+          <ul class="messages">
+            <li class="bot message">
+              Olá, eu sou o seu bot assistente! Sinta-se livre para perguntar
+              qualquer coisa a respeito do funcionamento do site :)
+            </li>
+          </ul>
+
+          <ul class="potential-questions"></ul>
+        </div>
+
+        <form>
+          <input
+            type="text"
+            name="question"
+            placeholder="digite sua pergunta..."
+          />
+          <button class="ask-button">
+            <img src="/assets/icons/paper-plane-right.svg" alt="" />
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <footer>Copyright@Matheus</footer>
+  </body>
+</html>

@@ -9,17 +9,18 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
     <title>BnuFest</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <h1 class="title">BnuFest</h1>
+        <h1 class="title"><a href="/index.html">BnuFest</a></h1>
 
         <nav>
           <ul class="list">
-            <li class="item">Home</li>
+            <li class="item"><a href="/index.html">Home</a></li>
+            <li class="item"><a href="/routes/chatbot.html">Chatbot</a></li>
             <li class="item">Cadastro</li>
             <li class="item">Login</li>
           </ul>
@@ -30,6 +31,7 @@
     <main>
       <div class="main-events">
         <img
+          class="main-image"
           src="https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_square.jpg"
           alt=""
         />
@@ -41,7 +43,10 @@
               src="https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_square.jpg"
               alt=""
             />
-            <h2 class="title">Lorem ipsum dolor sit amet.</h2>
+            <div class="content">
+              <h2 class="title">Lorem ipsum dolor sit amet.</h2>
+              <p class="date">20 de agosto de 2022</p>
+            </div>
           </div>
 
           <div class="card">
@@ -49,7 +54,10 @@
               src="https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_square.jpg"
               alt=""
             />
-            <h2 class="title">Lorem ipsum dolor sit amet.</h2>
+            <div class="content">
+              <h2 class="title">Lorem ipsum dolor sit amet.</h2>
+              <p class="date">20 de agosto de 2022</p>
+            </div>
           </div>
 
           <div class="card">
@@ -57,7 +65,10 @@
               src="https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_square.jpg"
               alt=""
             />
-            <h2 class="title">Lorem ipsum dolor sit amet.</h2>
+            <div class="content">
+              <h2 class="title">Lorem ipsum dolor sit amet.</h2>
+              <p class="date">20 de agosto de 2022</p>
+            </div>
           </div>
         </div>
       </div>
@@ -167,5 +178,9 @@
       </div>
     </main>
     <footer>Copyright@Matheus</footer>
+
+    <a class="chatbot-button" href="/routes/chatbot.html">
+      <img src="/assets/icons/chat.svg" alt="" />
+    </a>
   </body>
 </html>
